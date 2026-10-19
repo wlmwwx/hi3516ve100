@@ -1,0 +1,14 @@
+# cat /etc/majestic.yaml
+nightMode:
+  colorNight: true
+  enabled: true
+  overrideDrc: 30
+  irCutPin1: 1
+  irCutPin2: 0
+  irLedPin: -1
+  colorToMono: true
+motionDetect:
+  enabled: true
+  roi:
+  - 37x42x1853x1012
+  sensitivity: 5
