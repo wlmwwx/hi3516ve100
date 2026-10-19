@@ -78,3 +78,8 @@ u-boot-region.bin  16M 版本提取的uboot
   S10-init-leds.sh 和motion.sh 里都要做相应的改动
 
 ## motion.sh 被调用时出现网络连接不上的情况，目前没有找到问题，先放弃这个功能
+
+## 注意事项
+wifi和lan口不能同时用，启用wifi，lan 口地址变成192.168.2.10,如果要使用lan口，先禁用wifi。
+### 禁用wifi
+Wireless adapter 里选择None-WiredEthernetOnly
